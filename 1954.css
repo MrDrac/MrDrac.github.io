@@ -34,3 +34,9 @@ footer {
     font-style: italic;
 
 }
+input#sla {
+    width: 100px;
+    height: 30px;
+    border-radius: 7px;
+    box-shadow: rgba(0, 0, 0, 0.5);
+}
