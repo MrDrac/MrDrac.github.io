@@ -1,0 +1,36 @@
+body {
+    font-family: Arial;
+    background-color: rgb(32, 130, 211);
+}
+
+header#cab {
+    color: white;
+    text-align: center;
+}
+
+section#sec {
+    text-align: center;
+    width: 1000px;
+    background-color: white;
+    padding-left: 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 15px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5) ;
+    
+}
+
+div#res {
+	font-size: 16px;
+	text-align: left;
+
+}
+
+footer {
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+    font-style: italic;
+
+}
