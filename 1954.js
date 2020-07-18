@@ -116,6 +116,21 @@ function Numerizar(){
         if(letra == "õ"|| letra == "Õ"){
             frase[z] = 15
         }
+        if(letra == "â"|| letra == "Â"){
+            frase[z] = 1
+        }
+        if(letra == "ê"|| letra == "Ê"){
+            frase[z] = 5
+        }
+        if(letra == "î"|| letra == "Î"){
+            frase[z] = 9
+        }
+        if(letra == "ô"|| letra == "Ô"){
+            frase[z] = 15
+        }
+        if(letra == "û"|| letra == "Û"){
+            frase[z] = 21
+        }
         if(letra == `\"`){
             frase[z] = `\"`
         }
