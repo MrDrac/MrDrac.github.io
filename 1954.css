@@ -40,3 +40,33 @@ input#sla {
     border-radius: 7px;
     box-shadow: rgba(0, 0, 0, 0.5);
 }
+
+header#cab1 {
+    color: white;
+    text-align: center;
+}
+
+section#sec1 {
+    text-align: center;
+    width: 1000px;
+    background-color: white;
+    padding-left: 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 15px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5) ;
+    
+}
+
+div#res1 {
+	font-size: 16px;
+	text-align: left;
+
+}
+input#sla1 {
+    width: 100px;
+    height: 30px;
+    border-radius: 7px;
+    box-shadow: rgba(0, 0, 0, 0.5);
+}
