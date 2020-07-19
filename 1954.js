@@ -183,6 +183,8 @@ function turing(array){
         }
         else if(array[z] == "\'"){
             array[z] == "\'"
+        }else if(array[z] == ","){
+            array[z] == ","
         }
         else {
             if(x == 0){
