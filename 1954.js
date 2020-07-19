@@ -1,5 +1,6 @@
 window.alert("Use c no lugar de ç, se não vai dar problema")
 
+
 function obter1(){
     let res1 = document.querySelector("div#res")
     res1.innerHTML = turing1(Numerizar1()).join("")
