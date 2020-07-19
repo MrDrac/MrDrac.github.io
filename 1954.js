@@ -19,7 +19,8 @@ function Numerizar(){
     frase1.forEach(function(letra){
         z = frase1.indexOf(letra)
         
-        
+        if(letra == "ç" || letra == "Ç"){
+            frase1[z] = 0}
         if(letra == "A" || letra == "a"){
             frase1[z] = 1
         }
@@ -521,6 +522,8 @@ function Numerizar1(){
 
     frase.forEach(function(letra){
         z = frase.indexOf(letra)
+        if(letra == "ç" || letra == "Ç"){
+            frase[z] = 0}
         if(letra == "a" || letra == "A"){
             frase[z] = 1
         }
@@ -897,6 +900,7 @@ function turing1(array){
                     array[z] = "Ç"
                 }
                 if(array[z] > 0 && array[z] <= 26){
+                    
                     if(array[z] == "1"){
                         array[z] = "A"
                     }
