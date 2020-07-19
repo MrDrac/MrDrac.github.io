@@ -1,6 +1,14 @@
 function obter1(){
     let phrase1 = String(document.querySelector("textarea#traduzir1").value)
     let res1 = document.querySelector("div#res")
+    let z = phrase1.split("")
+    let x = 0
+    while(x != phrase1.length()){
+        if(z[x] == "Ç" ||z[x] == "ç"){
+            alert("Invés de usar \"ç/" use \"c\"")
+            phrase1 = ""
+        }
+    }
     res1.innerHTML = turing1(Numerizar1()).join("")
     
 }
