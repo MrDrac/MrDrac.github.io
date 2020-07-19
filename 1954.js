@@ -1,18 +1,10 @@
+window.alert("Use c no lugar de ç, se não vai dar problema")
+
 function obter1(){
-    let phrase1 = String(document.querySelector("textarea#traduzir1").value)
     let res1 = document.querySelector("div#res")
-    let z = phrase1.split("")
-    let x = 0
-    while(x != phrase1.length()){
-        if(z[x] == "Ç" ||z[x] == "ç"){
-            alert("Invés de usar \"ç/" use \"c\"")
-            phrase1 = ""
-        }
-    }
     res1.innerHTML = turing1(Numerizar1()).join("")
     
 }
-
 function Numerizar(){
     
     var x = 0
@@ -26,9 +18,7 @@ function Numerizar(){
     frase1.forEach(function(letra){
         z = frase1.indexOf(letra)
         
-        if(letra == "ç" || letra == "Ç"){
-            frase1[z] = 0
-        }
+        
         if(letra == "A" || letra == "a"){
             frase1[z] = 1
         }
@@ -155,6 +145,7 @@ function Numerizar(){
         if(letra == "-"){
             frase1[z] = "-"
         }
+       
 
         
     })
@@ -198,6 +189,10 @@ function turing(array){
         else if(array[z] == "."){
             array[z] == "."
         }
+        else if(array[z] == "ç" || letra == "Ç"){
+            frase1[z] = "c"
+        }
+        
         else {
             if(x == 0){
                 console.log(`${array[z]} -1 = ${array[z] -1}`)
@@ -652,6 +647,8 @@ function Numerizar1(){
         if(letra == " "){
             frase[z] = "-"
         }
+        
+        
 
         
     })
@@ -696,6 +693,9 @@ function turing1(array){
         else if(array[z] == "."){
             array[z] == "."
         }
+        else if(array[z] == "ç" || letra == "Ç"){
+            frase1[z] = "c"}
+        
         else {
             if(x == 0){
                 console.log(`${array[z]} -1 = ${array[z] -1}`)
