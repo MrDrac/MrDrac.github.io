@@ -189,9 +189,7 @@ function turing(array){
         else if(array[z] == "."){
             array[z] == "."
         }
-        else if(array[z] == "ç" || letra == "Ç"){
-            frase1[z] = "c"
-        }
+      
         
         else {
             if(x == 0){
@@ -693,8 +691,6 @@ function turing1(array){
         else if(array[z] == "."){
             array[z] == "."
         }
-        else if(array[z] == "ç" || letra == "Ç"){
-            frase1[z] = "c"}
         
         else {
             if(x == 0){
