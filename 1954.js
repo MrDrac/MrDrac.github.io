@@ -678,6 +678,9 @@ function turing1(array){
         else if(array[z] == "\'"){
             array[z] == "\'"
         }
+        else if(array[z] == ","){
+            array[z] == ","
+        }
         else {
             if(x == 0){
                 console.log(`${array[z]} -1 = ${array[z] -1}`)
