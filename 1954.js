@@ -6,6 +6,7 @@ function obter1(){
 }
 
 function Numerizar(){
+    
     var x = 0
     
     
